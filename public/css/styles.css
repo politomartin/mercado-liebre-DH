@@ -1,0 +1,456 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ebebeb;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 12px;
+}
+
+/* HEADER */
+
+header {
+  background-color: #eac926;
+}
+
+.top-header {
+  padding: 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.top-header .logo {
+  width: 50%;
+  padding: 10px;
+}
+
+header .form {
+  width: 50%;
+  border-radius: 10px ;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.form .input {
+  color: #666;
+  padding: 2px;
+  border: none;
+  width: 90%;
+}
+
+.form .submit {
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #666;
+  width: 10%;
+  border: none;
+  text-align: right;
+}
+
+.top-header p {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.burger-menu {
+  text-align: center;
+}
+
+.burger-menu i {
+  background-color: #0044aa;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  height: 40px;
+  margin: 10px 0px 20px 0px;
+  padding: 10px;
+  width: 40px;
+}
+
+header nav {
+  font-size: 12px;
+  display: none;
+}
+
+header ul {
+  padding-bottom: 10px;
+}
+
+header ul li {
+  list-style-type: none;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* HEADER */
+
+
+/* MAIN */
+article div.main-article {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid #ebebeb;
+  padding: 15px;
+}
+
+.price {
+  font-size: 18px;
+}
+
+.discount,
+.description {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+h3,
+.description {
+  color: #666;
+}
+
+section.banner img {
+  width: 100%;
+}
+
+main {
+  width: 90%;
+  padding-left: 10px;
+  margin: auto;
+}
+
+main section article {
+  background-color: #fff;
+  margin: 10px 0px;
+  height: 100%;
+}
+
+main section article img {
+  width: 100%;
+}
+
+main section article i,
+.discount {
+  color: #39b54a;
+  width: 70%;
+}
+
+.price {
+  width: 30%;
+  font-size: 18px;
+}
+
+main article p {
+  display: flex;
+}
+
+.description {
+  padding-top: 20px;
+}
+
+.description-container {
+  opacity: 0%;
+  height: 0px;
+  transition: opacity 250ms ease-in-out,  height 300ms ease-in-out;
+}
+
+.truck-icon {
+  font-size: 16px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  background-color: #FFF;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: -15px;
+  transition: transform 400ms;
+}
+ /* FOOTER */
+footer {
+  background-color: #FFFFFF;
+}
+footer article {
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+}
+
+footer article i:hover {
+  color: #39b54a;
+}
+
+footer i {
+  font-size: 30px;
+  color: #1259c3;
+  font-size: 2em;
+  margin-bottom: 10px;
+  transition: color 300ms;
+}
+
+footer p, h4{
+  text-align: center;
+  color: #666;
+}
+
+footer .copyright {
+  padding: 10px;
+  font-size: 13px;
+  color: #666;
+  margin-top: 20px;
+  text-align: left;
+}
+
+footer div {
+  width: 100%;
+}
+
+/* FOMULARIO INGRESO*/
+
+.form-login {
+  padding: 20px 5px;
+  max-width: 900px;
+  margin: auto;
+  margin: 20px 15px;
+}
+
+.form-login .locker {
+  width: 100%;
+  padding: 10px 5px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  border: none;
+}
+
+.form-login button {
+  width: 100%;
+  padding: 10px 5px;
+  background-color: #0044aa;
+  border: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+  transition: background-color 250ms;
+}
+
+.form-login button:hover {
+  background-color: #0022aa;
+}
+
+/* FORMULARIO DE REGISTRO*/
+
+.register {
+  padding: 5px;
+  max-width: 900px;
+  margin: auto;
+  margin: 20px 15px;
+}
+
+.form-register .locker {
+  width: 100%;
+  padding: 10px 5px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  border: none;
+  font-size: 15px;
+}
+
+.form-register input {
+  padding: 10px 5px;
+  margin-bottom: 30px;
+}
+
+.form-register .date-birthday, .form-register h4 {
+  width: 100%;
+  display: block;
+  margin:20px 0px ;
+  font-size: 20px;
+}
+
+.form-register .buttons {
+  display: flex;
+  width: 100%;
+  padding: 10px 5px;
+  border: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.form-register .submit-button, .form-register button {
+  margin: 0px;
+  width: 35%;
+  padding: 5px;
+  background-color: #1259c3;
+  border: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+  text-align: center;
+  transition: background-color 250ms;
+}
+
+.form-register .deletle-button {
+  margin: 0px;
+  width: 35%;
+  padding: 5px;
+  background-color: #1259c3;
+  border: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+  text-align: center;
+  transition: background-color 250ms;
+}
+
+.form-register .subtitles {
+  text-align: left;
+}
+
+@media (min-width: 361px) {
+
+  /* Tablets */
+  header {
+    padding: 10px;
+  }
+
+  .top-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    align-items: center;
+  }
+
+  .top-header,
+  header nav,
+  .products {
+    max-width: 1200px;
+  }
+
+
+  div.burger-menu i {
+    display: none;
+  }
+
+  header nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header nav ul {
+    padding: 10px 0px;
+    display: flex;
+  }
+
+  header nav ul li {
+    padding: 5px;
+  }
+
+  main section .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0px 16px;
+  }
+
+  main section article:hover .description-container{
+    height: 40px;
+    opacity: 100%;
+  }
+
+  main section article:hover .truck-icon{
+    transform: rotate(-90deg);
+  }
+
+  main section article {
+    width: 48%;
+  }
+
+  main section article:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+
+  footer p {
+    max-width: 70%;
+    margin: auto;
+  }
+
+  /* FORMULARIO LOGIN */
+  .form-login {
+    margin: 20px 30px;
+  }
+
+  .register {
+    margin: 20px 30px;
+  }
+
+}
+
+
+@media (min-width: 769px) {
+  main section article {
+    width: 24%;
+  }
+
+  .top-header,
+  header nav {
+    margin: auto;
+  }
+
+  .top-header .logo {
+    width: 30%;
+  }
+
+  header .form {
+    width: 40%;
+    padding: 10px;
+  }
+
+
+  .top-header p {
+    width: 20%;
+    margin-top: 0;
+  }
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  footer article {
+    width: 32%;
+  }
+
+  footer .copyright {
+    width: 100%;
+  }
+
+  .form-login {
+    padding: 100px;
+    margin: auto;
+  }
+  .register {
+    padding: 20px 100px;
+    margin: auto;
+  }
+}
